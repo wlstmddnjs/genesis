@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+@font-face{
+    font-family: 'Cinzel', serif;
+    src: url(../cinzel/Cinzel-Black.otf);
+    src: url(../cinzel/Cinzel-Bold.otf);
+    src: url(../cinzel/Cinzel-Regular.otf);
+    src: url(../cinzel/CinzelDecorative-Black.otf);
+    src: url(../cinzel/CinzelDecorative-Bold.otf);
+    src: url(../cinzel/CinzelDecorative-Regular.otf);
+    font-weight: 700;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+ol,ul,li{
+    list-style: none;
+}
+
+img,svg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
